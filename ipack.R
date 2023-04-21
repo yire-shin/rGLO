@@ -13,10 +13,10 @@ ipack <- function(pkg){
 }
 
 
-packages=c("data.table",  # function :: rbindlist
-           "plyr",        # function :: ddply/join
+packages=c("data.table",  
+           "plyr",        
            "ggplot2",
-           "rootSolve",       #multiroot
+           "rootSolve",       
            "ismev",
            "Lmoments",
            "numDeriv",
